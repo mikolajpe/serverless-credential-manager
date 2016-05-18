@@ -1,0 +1,36 @@
+{
+    name: "serverless-credential-manager",
+    engines: {
+        node: ">=4.0"
+    },
+    description: "Serverless Credential Manager Plugin.",
+    author: "https://github.com/mikolajprzbysz",
+    license: "MIT",
+    repository: {
+        type: "git",
+        url: "git+https://github.com/mikolajprzybysz/serverless-credential-manager.git"
+    },
+    keywords: [
+        "serverless",
+        "serverless framework plugin",
+        "serverless applications",
+        "serverless plugins",
+        "serverless plugin",
+        "serverless credential",
+        "serverless credential manager",
+        "api gateway",
+        "lambda",
+        "aws lambda",
+        "amazon",
+        "amazon web services"
+    ],
+    main: "index.js",
+    bin: { },
+    scripts: { },
+    devDependencies: { },
+    dependencies: { },
+    bugs: {
+        url: "https://github.com/mikolajprzybysz/serverless-credential-manager/issues"
+    },
+    homepage: "https://github.com/mikolajprzybysz/serverless-credential-manager"
+}
