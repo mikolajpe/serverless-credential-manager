@@ -19,9 +19,19 @@ based on `~/.aws/credentials` file contents).
 
 ### Installation
 
+Add dependency to your project:
+
+File: *package.json*
 ```
-cd myproject
-npm install serverless-credential-manager
+{
+    ...
+    "devDependencies": {
+        ...
+        "serverless-credential-manager" : "^0.1.0"
+        ...
+    }
+    ...
+}
 ```
 
 Add the plugin to your project by doing following modification:
